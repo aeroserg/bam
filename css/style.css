@@ -1,0 +1,182 @@
+body {
+    color: #616161;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.main-img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.main-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px -10px;
+    position: relative;  /* added position property */
+    margin: 0 auto;
+    background-color: #fff;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.main-part {
+    width: 50%;
+    padding: 30px 30px 30px 60px;
+
+}
+.main-main-left-logo {
+    width: 100%;
+    text-align: center;}
+.main-main-left-logo  img {
+    width: 66%;
+}
+h1 {
+    color: #000;
+    margin:60px 0 30px 0 ;
+    margin-top: 5%;
+}
+.b-h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.main-main-left-img {
+    box-sizing: border-box;
+}
+.main-main-left-img img:nth-of-type(even){
+    margin-top: 6%;
+}
+
+ .lasts img{
+    padding: 0 6%;
+}
+.form-group, .form-select {
+    margin-bottom: 20px;
+    font-size: 14px;
+   
+}
+input::placeholder {
+    font-size: 14px;
+}
+.main-main-left-img img {
+    width: 100%;
+}
+.btn {
+    background-color: #fe0000;
+    padding:20px 0 ;
+    width: 100%;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 10px;
+
+}
+
+.main-main-right {
+    box-sizing: border-box;
+}
+.nonheader {
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+/* скрываем ненужные поля */
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* медиа запросы */
+@media screen and (max-width: 992px) {
+
+.main-main {
+    flex-direction: column;
+    width: 90%;
+}
+.main-part {
+    width: 100%;
+    padding: 30px 7px 30px 7px;
+}
+.main-main-left-logo {
+    text-align: center;
+    margin-top: 10%;
+}
+.b-h2 {
+    font-size: 100%;
+}
+.b-h4 {
+    font-size: 100%;
+}
+.info {
+    flex-direction: column;
+}
+.sub-info {
+    width: 100%;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 438px) and (max-width:992px) {
+    .sub-info {
+        width: 50%;
+        box-sizing: border-box;
+    }
+    .info {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .panel-img {
+    width: 50%;
+    text-align: center;
+    
+}
+.panel-img {
+    width: 100%;
+}
+
+
+.main-main-left-img-second img {
+    width: 100%;
+    border-radius: 20px;
+}
+.b-h2:nth-of-type(2) {
+    margin-bottom: 0;
+}
+}
+
+
+@media screen and (max-width:354px) {
+    h1 {
+        font-size: 7vw;
+    }
+   
+}
+
+@media screen and (max-width: 438px) {
+    .sub-info-panel {
+        padding: 0 30px;
+    }
+}
